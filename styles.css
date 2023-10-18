@@ -1,7 +1,142 @@
-p.serif {
-  font-family: "Times New Roman", Times, serif;
+/* WEB SAFE FONTS
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive) 
+*/
+
+/* NOT WEB SAFE FONTS IMPORTS */
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Yuji Hentaigana Akari */
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+
+/* Young Serif */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+/* Pixelify Sans */
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+/* Bebas Neue */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* Dancing Script */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+/* Flow Rounded */
+@import url("https://fonts.googleapis.com/css2?family=Flow+Rounded&display=swap");
+
+/* Pacifico */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/* Spectral SC */
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+/* Sancreek */
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+
+/* NOT WEB SAFE FONTS */
+p.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: brown;
 }
 
-p.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
+p.yuji {
+  font-family: "Yuji Hentaigana Akari", cursive;
+  font-size: 90%;
+  font-weight: bold;
 }
+
+p.youngSerif {
+  font-family: "Young Serif", serif;
+  font-size: 20px;
+  text-decoration: double underline;
+}
+
+p.pixelifySans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1em;
+  color: orangered;
+  line-height: 30px;
+}
+
+p.bebasNeue {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+p.dancingScript {
+  font-family: "Dancing Script", cursive;
+  font-style: oblique;
+  font-size: 3em;
+}
+
+p.flowRounded {
+  font-family: "Flow Rounded";
+  font-size: 14px;
+}
+
+p.pacifico {
+  font-family: "Pacifico", cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p.spectralSC {
+  font-family: 'Spectral SC', serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+p.sancreek {
+  font-family: 'Sancreek', serif;
+  font-size: 200%;
+  color: burlywood;
+  text-transform: lowercase;
+}
+
+/*  */
+
+/* WEB SAFE FONTS */
+p.arial {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+p.timesNewRoman {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+p.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  font-weight: light;
+}
+
+p.georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 70%;
+  color: yellowgreen;
+}
+
+p.courierNew {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  text-decoration: dashed underline;
+  font-weight: lighter;
+}
+/*  */
